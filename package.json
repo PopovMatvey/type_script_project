@@ -1,0 +1,36 @@
+{
+  "name": "type_script_project",
+  "version": "0.0.1",
+  "description": "lern-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./dist/index.js",
+    "build":"tsc",
+    "dev":"nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PopovMatvey/type_script_project.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "TypeScript",
+    "TS",
+    "nodejs",
+    "NodeJS"
+  ],
+  "author": "Popov M. S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PopovMatvey/type_script_project/issues"
+  },
+  "homepage": "https://github.com/PopovMatvey/type_script_project#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
